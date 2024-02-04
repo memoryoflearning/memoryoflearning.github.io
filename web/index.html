@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>基本骨架</h2>
+    &lt;!DOCTYPE html&gt;<br>
+    &lt;html lang=“en”&gt;<br>
+    &lt;head&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset=“UTF-8”&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="" content="" &gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;(名字 显示在上面)&lt;/title&gt;<br>
+    &lt;/head &gt;<br>
+    <br>
+    &lt;body&gt;<br>
+    &lt;/body&gt;<br>
+    &lt;/html&gt;<br>
+    <h2>小标签</h2>
+    <h4>标题大小 四个等级</h4>
+    &lt;h1&gt; &lt;/h1&gt;∽&lt;h4&gt; &lt;/h4&gt;<br>
+    <p>具体网页显示如下：</p>
+    <h1>一级</h1>
+    <h2>二级</h2>
+    <h3>三级</h3>
+    <h4>四级</h4>
+    <h4>段落表示方法</h4>
+    &lt;p&gt; &lt;/p&gt;<br>
+    <h4>特殊文字显示</h4>
+    <p>&lt;strong&gt; 加粗内容 &lt;/strong&gt;<br>
+        网页显示情况
+        <strong>加粗</strong>
+    </p>
+    <p>&lt;del&gt; 删除线覆盖内容 &lt;/del&gt;<br>
+        网页显示情况
+        <del>删除线</del>
+    </p>
+    <p>&lt;ins&gt; 下划线覆盖内容 &lt;/ins&gt;<br>
+        网页显示情况
+        <ins>下划线</ins>
+    </p>
+    <p>&lt;div&gt; 盒子 单独占一行&lt;/div&gt;<br>
+        网页显示情况
+    <div>盒子1</div>
+    <div>盒子2</div>
+    </p>
+    <p>&lt;span&gt; 小盒子 一行可以有多个&lt;/span&gt;<br>
+        网页显示情况<br>
+        <span>盒子1</span><span>盒子2<span>盒子3</span>
+    </p>
+    <h2>图像部分</h2>
+    <p>插入图像</p>
+    <p>&lt; img src&gt;</p>
+    <p>&lt;alt&gt;替换文本 图像不能显示时，显示的文本<br>
+        例如：<img src="images/女1.jpg" alt="这里是表示女性的标签" width="50"></p>
+    <br>
+    <p>&lt;title&gt;提示文本 鼠标放到图像上显示的文字<br>
+        例如：<img src="images/女.jpg" title="表示女性的标签" width="50"></p>
+    <br>
+    <p>&lt;width&gt;设置图像宽度<br>
+        例如：<img src="images/女.jpg" width="30"><br>
+        (此处图片宽度设置为30)</p>
+    <br>
+    <p>&lt;height&gt;设置图像高度<br>
+        例如：<img src="images/男.jpg" height="40"><br>
+        (此处图片高度设置为40)</p>
+    <br>
+    <p>&lt;border&gt;设置图像边框的粗细<br>
+        例如：<img src="images/男.jpg" border="3" width="50"><br>
+        (此处边框设置为3)</p>
+    <br>
+
+    <h2>相对路径</h2>
+    &lt;. /&gt;下一级
+    &lt;.. /&gt;上一级<br>
+    <h2>链接</h2>
+    <p><strong>外部链接</strong>
+        &lt;a href="跳转目标" targht="目标窗口的弹出方式"&gt;文本或图像&lt;/a&gt;<br>
+        targht _self本页面打开 _blank 新窗口打开</p>
+    <p><strong>空链接</strong>
+        &lt;a href="#"&gt;&lt;/a&gt;</p>
+    <p><strong>下载链接</strong>
+        &lt;a href="img.zip(直接用压缩包或文件的名字)"&gt;&lt;/a&gt;</p>
+    <p><strong>网页元素的链接</strong>
+        &lt;a href="网址"&gt;
+        &lt; img src="图片名字" /&gt;</p>
+    <p><strong>锚点链接</strong>
+        直接跳转到页面的某个部分<br>
+        1.在链接文本href属性中,设置<br>
+        2.找到目标位置标签,里面添加一个id属性=刚才的名字<br>
+        如&lt;h3 id="名字"&gt; &lt;/h3&gt;</p>
+    <h2>注释标签</h2>
+    不显示到网页<br>
+    网页源代码显示为：
+    (查看网页源代码显示)
+    <!--注释语句--><br>
+    快捷键ctrl+/<br>
+    <h2>特殊字符</h2>
+    在HTML页面中，一些特殊的符号不方便直接使用，
+    此时可以用下面的字符代替。<br>
+    <p><strong>&&nbsp;n&nbsp;b&nbsp;s&nbsp;p&nbsp;;</strong>表示空格符（记得加分号！！！）</p>
+    <p><strong>&&nbsp;l&nbsp;t&nbsp;;</strong>表示小于号（记得加分号！！！） 例如：&lt;</p>
+    <p><strong>&&nbsp;g&nbsp;t&nbsp;;</strong>表示大于号（记得加分号！！！） 例如：&gt;</p>
+    <p><strong>&&nbsp;a&nbsp;m&nbsp;p&nbsp;;</strong> 表示和号（记得加分号！！！） 例如：&amp;</p>
+    <p><strong>&&nbsp;y&nbsp;e&nbsp;n&nbsp;;</strong> 表示人民币符号（记得加分号！！！） 例如：&yen;</p>
+    <p><strong>&&nbsp;c&nbsp;o&nbsp;p&nbsp;y&nbsp;;</strong>表示版权（记得加分号！！！）例如：&copy;</p>
+    <p><strong>&&nbsp;r&nbsp;e&nbsp;g&nbsp;;</strong> 表示注册商标（记得加分号！！！） 例如：&reg;</p>
+    <p><strong>&&nbsp;d&nbsp;e&nbsp;g&nbsp;;</strong> 表示摄氏度（记得加分号！！！） 例如：&deg;</p>
+    <p><strong>&&nbsp;p&nbsp;l&nbsp;u&nbsp;s&nbsp;m&nbsp;n&nbsp;;</strong>表示正负号（记得加分号！！！）例如：&plusmn;</p>
+    <p><strong>&&nbsp;t&nbsp;i&nbsp;m&nbsp;e&nbsp;s&nbsp;;</strong>表示乘号（记得加分号！！！）例如：&times;</p>
+    <p><strong>&&nbsp;d&nbsp;i&nbsp;v&nbsp;i&nbsp;d&nbsp;e&nbsp;;</strong>表示除号（记得加分号！！！）例如：&divide;</p>
+    <p><strong>&&nbsp;s&nbsp;u&nbsp;p&nbsp;2&nbsp;;</strong>表示平方 上标2（记得加分号！！！）例如：&sup2;</p>
+    <p><strong>&&nbsp;s&nbsp;u&nbsp;p&nbsp;3&nbsp;;</strong>表示立方 上标3（记得加分号！！！）例如：&sup3;</p>
+    <br>
+    <strong>练习环节</strong>
+    <a href="练习部分/有关圣诞节的网页.html" target="_blank">有关圣诞节的网页练习（内含圣诞老人的介绍）</a>
+    <h1>HTML标签</h1>
+    <h2>表格的基本用法</h2>
+    <p>&lt;tr&gt;是行</p>
+    <p>&lt;td&gt;是单元格</p>
+    <p>&lt;th&gt;表示表头，在第一行加粗并居中显示</p>
+    <p><strong>以下可以折叠，层次清晰</strong></p>
+    <p>&lt;thead&gt;表头区域</p>
+    <p>&lt;tbody&gt;除表头区域</p>
+    <strong>表格的相关属性</strong><br>
+    <p>1.align 属性值 left，center，right 规定表格相对周围元素的对齐方式</p>
+    <p>2.border 属性值 是1或"" 规定表格是否拥有边框，默认为""，表示没有边框</p>
+    <p>3.cellpadding 属性值是像素值 规定单元边沿与内容之间的空白，默认为1像素</p>
+    <p>4.cellspacing 属性值是像素值 规定单元格之间的空白，默认为2像素</p>
+    <p>5.width 属性值是像素值或百分比 规定表格的宽度</p>
+
+    <strong>基本语法</strong>如下：<br>
+    &lt;table&gt;<br>
+    &nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;单元格内文字 &lt;/td&gt;<br>
+    &nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>
+    &lt;/table&gt;<br>
+    <p><strong>练习环节</strong>&nbsp;<a href=./练习部分/小说排行榜（表格训练）.html>表格练习 之小说排行榜</a></p>
+    <p><strong>合并单元格</strong></p>
+
+    <p>跨行合并 rowspan="合并单元格的个数" &nbsp;跨行的目标单元格是写在最上面的单元格</p>
+    <p>跨列合并 colspan="合并单元格的个数" &nbsp;跨列的目标单元格是写在最左面的单元格</p>
+    合并步骤<br>
+    <p>1.确定是跨行还是跨列<br>
+        2.找到目标单元格，写上合并方式="合并单元格的数量"
+        例如：&lt;td colsapan="2" &gt;&lt;/td&gt;<br>
+        3.删除多余的单元格</p>
+    <strong>练习环节</strong>
+    <a href="./练习部分/合并表格.html" target="_blank">合并单元格的练习</a>
+    <h2>列表的基本用法</h2>
+    <h3>无序列表（没有先后顺序的区别 &nbsp;并列表示）</h3>
+    <strong>基本语法</strong>如下：<br>
+    &lt;ul&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;列表项1 &lt;/li&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;列表项2 &lt;/li&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;列表项3 &lt;/li&gt;<br>
+    &lt;/ul&gt;<br>
+    <p>注意:<br>1、ul中只能有li标签<br>
+        2、li中可以放其他元素</p>
+    <h3>有序列表（各个列表会按照一定的顺序排列定义）</h3>
+    <strong>基本语法</strong>如下：<br>
+    &lt;ol&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;列表项1 &lt;/li&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;列表项2 &lt;/li&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;列表项3 &lt;/li&gt;<br>
+    &lt;/ol&gt;<br>
+    <h3>自定义列表</h3>
+    <strong>基本语法</strong>如下：<br>
+    &lt;dl&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;dt&gt;名词1 &lt;/dt&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;名词解释1 &lt;/dd&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;名词解释2 &lt;/dd&gt;<br>
+    &lt;/dl&gt;<br>
+    <strong>练习环节</strong>
+    <a href="./练习部分/列表.html" target="_blank">列表练习</a>
+    <h2>表单的基本用法</h2>
+    <p>在HTML中，一个完整的表单通常由表单域、表单控件（也称为表单元素）和提示信息三个部分构成。</p>
+    <p>表单域是一个包含表单元素的区域。</p>
+    <p>在HTML中，&lt;form&gt;标签用于定义表单域，实现用户信息的收集和传递</p>
+    <p>&lt;form&nbsp;action="url地址" &nbsp; method="提交方式"&nbsp;name="表单域名称"&gt;</p>
+    <p>&lt;/form&gt;</p>
+    <strong>form常用属性</strong>
+    <p>1.action 属性值&nbsp;url地址&nbsp;作用：用于接收并处理表单数据的服务器程序的url地址</p>
+    <p>2.method 属性值&nbsp;get/post&nbsp;作用：用于设置表单数据的提交方式</p>
+    <p>3.name 属性值&nbsp;名称&nbsp;作用：用于指定表单的名称，以区分同一个页面中的多个表单域</p>
+    <h3>input输入表单元素</h3>
+    <p>&lt;input type="属性值"/&gt;</p>
+    <strong>具体type的属性值如下：</strong><br>
+    <p>1.button&nbsp;定义可点击按钮</p>
+    <p>2.checkbox&nbsp;定义复选框</p>
+    <p>3.file&nbsp;定义输入字段“浏览”按钮，供文件上传</p>
+    <p>4.hidden&nbsp;定义隐藏的输入字段</p>
+    <p>5.image&nbsp;定义图像形式的提交按钮</p>
+    <p>6.password&nbsp;定义密码字段，该字段中的字符被掩码</p>
+    <p>7.radio&nbsp;定义单选按钮</p>
+    <p>8.reset&nbsp;定义重置按钮，会清楚表单中的所有数据</p>
+    <p>9.submit&nbsp;定义提交按钮，会把表单数据发送到服务器</p>
+    <p>10.text&nbsp;定义单行输入的字段，用户可在其中输入文本，默认宽度为20个字符</p>
+    <strong>其他input常用属性：</strong><br>
+    <p>1.name 属性值&nbsp;用户自定义&nbsp;作用：定义input元素的名称</p>
+    <p>2.value 属性值&nbsp;用户自定义&nbsp;作用：规定input元素的值</p>
+    <p>3.checked 属性值&nbsp;checked&nbsp;作用：规定input元素首次加载时应当被选中（默认选中）</p>
+    <p>4.maxlength 属性值&nbsp;正整数&nbsp;作用：规定输入字段中的字符最大长度</p><br>
+    <br>
+    <h3>label标签</h3>
+    <p>用于绑定一个表单元素，点击&lt;label&gt;标签内的文本时时，<br>
+        浏览器会将光标到对应选择的元素中，增加用户体验</p>
+    <P><strong>基本语法（例）</strong></P>
+    &lt;label for="&nbsp;"&gt;内容内容内容&lt;label&gt;<br>
+    &lt;input type="radio" name="sex" id="sex"/&gt;<br>
+    <br>
+    <br>
+    <h3>select下拉表单元素</h3>
+    <p>页面中多个选项让用户选择，且要节约空间时用下拉表单元素</p>
+    <P><strong>基本语法</strong></P>
+    &lt;select&gt;<br>
+    &lt;option&gt;选项1&lt;option&gt;<br>
+    &lt;option&gt;选项2&lt;option&gt;<br>
+    &lt;select&gt;<br>
+    <p>注意：在&lt;option&gt;中定义selected="selected"时默认选中</p>
+    <br>
+    <h3>textarea文本域元素</h3>
+    <p>特大号文本框，可以写很多内容，如留言板等</p>
+    <P><strong>基本语法</strong></P>
+    &lt;textarea rows=""&nbsp;cols=""&gt;<br>
+    文本内容<br>
+    &lt;textarea&gt;<br>
+    <p>注意：<br>
+        1.cols="每行中的字符数"<br>
+        2.rows="显示的行数"</p>
+    <a href="./练习部分/表单学习.html" target="_blank">表单练习</a>
+    <p><a href="./练习部分/注册页面.html" target="_blank">注册页面综合练习</a></p>
+
+</body>
+
+</html>
