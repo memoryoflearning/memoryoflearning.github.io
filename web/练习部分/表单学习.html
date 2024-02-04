@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!--text 文本框 用户可以里面输入任何文字-->
+        <label for="名字">用户名：</label> <input type="text" name="username" value="请输入用户名" maxlength="6" id="名字"><br>
+        <!-- password 密码框 用户看不见密码-->
+        密码：<input type="password"><br>
+        <!-- radio 单选按钮 可以实现单选-->
+        <!-- 单选和复选都可以设置checked 属性页面打开默认勾选 -->
+        性别：<label for="nan">男</label> <input type="radio" name="sex" value="男" id="nan">
+        <label for="nv">女</label><input type="radio" name="sex" value="女" id="nv"><br>
+        <!-- checkbox 复选框 可以多选 -->
+        爱好：吃饭<input type="checkbox" name="hobby" value="吃饭">
+        睡觉<input type="checkbox" name="hobby" value="睡觉">
+        打豆豆<input type="checkbox" name="hobby" value="打豆豆" checked=""><br>
+        <br>
+        <!-- 提交按钮 提交到php 页面 -->
+        <input type="submit" value="免费注册">
+        <!-- 重置可以还原原来的默认状态 -->
+        <input type="reset" value="重新填写">
+        <!-- 普通按钮 button -->
+        <input type="button" value="发送验证码">
+        <!-- 文件上传 -->
+        <input type="file"> <br>
+        <p>籍贯:</p>
+        <select>
+            <option>黑龙江</option>
+            <option selected="selected">吉林</option>
+            <option>辽宁</option>
+            <option>河北</option>
+            <option>北京</option>
+        </select><br>
+        <p>评论区：</p>
+        <textarea cols="30" rows="5">
+            请输入您的文本
+        </textarea>
+
+    </form>
+</body>
+
+</html>
